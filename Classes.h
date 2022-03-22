@@ -4,7 +4,7 @@
 //Twitter : EFK
 //Twitch : Zeusty
 
-//Uworld : 0xC4461F8
+//Uworld : 0xc446238
 //BoneArray : 0x5B0
 
 namespace AFortAIPawn
@@ -4567,6 +4567,46 @@ namespace FortPlayerDBNOEnterParams
 
 }
 
+namespace ULocalPlayer
+{
+	constexpr auto ViewportClient = 0x70; // UGameViewportClient*
+	constexpr auto AspectRatioAxisConstraint = 0xb0; // EAspectRatioAxisConstraint
+	constexpr auto PendingLevelPlayerControllerClass = 0xb8; // APlayerController*
+	constexpr auto bSentSplitJoin = 0xc0; // char : 1
+	constexpr auto ControllerId = 0xd8; // int32_t
+}
+
+namespace ULevel
+{
+	constexpr auto OwningWorld = 0xb8; // UWorld*
+	constexpr auto Model = 0xc0; // UModel*
+	constexpr auto ModelComponents = 0xc8; // TArray<UModelComponent*>
+	constexpr auto ActorCluster = 0xd8; // ULevelActorContainer*
+	constexpr auto NumTextureStreamingUnbuiltComponents = 0xe0; // int32_t
+	constexpr auto NumTextureStreamingDirtyResources = 0xe4; // int32_t
+	constexpr auto LevelScriptActor = 0xe8; // ALevelScriptActor*
+	constexpr auto NavListStart = 0xf0; // ANavigationObjectBase*
+	constexpr auto NavListEnd = 0xf8; // ANavigationObjectBase*
+	constexpr auto NavDataChunks = 0x100; // TArray<UNavigationDataChunk*>
+	constexpr auto LightmapTotalSize = 0x110; // float
+	constexpr auto ShadowmapTotalSize = 0x114; // float
+	constexpr auto StaticNavigableGeometry = 0x118; // TArray<FVector>
+	constexpr auto StreamingTextureGuids = 0x128; // TArray<FGuid>
+	constexpr auto StreamingTextures = 0x138; // TArray<FName>
+	constexpr auto PackedTextureStreamingQualityLevelFeatureLevel = 0x148; // uint32_t
+	constexpr auto LevelBuildDataId = 0x210; // FGuid
+	constexpr auto MapBuildData = 0x220; // UMapBuildDataRegistry*
+	constexpr auto LightBuildLevelOffset = 0x228; // FIntVector
+	constexpr auto bIsLightingScenario = 0x234; // char : 1
+	constexpr auto bTextureStreamingRotationChanged = 0x234; // char : 1
+	constexpr auto bStaticComponentsRegisteredInStreamingManager = 0x234; // char : 1
+	constexpr auto bIsVisible = 0x234; // char : 1
+	constexpr auto bIsPartitioned = 0x236; // char : 1
+	constexpr auto WorldSettings = 0x298; // AWorldSettings*
+	constexpr auto WorldDataLayers = 0x2a0; // AWorldDataLayers*
+	constexpr auto AssetUserData = 0x2b0; // TArray<UAssetUserData*>
+	constexpr auto DestroyedReplicatedStaticActors = 0x2d0; // TArray<FReplicatedStaticActorDestructionInfo>
+}
 
 //YouTube : EFK
 //Discord : EFK#6607
