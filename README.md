@@ -58,7 +58,7 @@ https://cdn.discordapp.com/attachments/945729410387042365/955516250207969321/unk
 https://cdn.discordapp.com/attachments/945729410387042365/955516281027690566/unknown.png
 
 WORK IN VERSION FN : 20.00
-
+EZ
 
 
 
