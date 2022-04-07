@@ -1,6 +1,6 @@
 # fortnite-offset-and-classes-name-
 imagine Inso web say "hey skidos" and imagine he say "Zetolac il a 12ans il demande de crack un Loader en C# :3" imagine i cracked the fucking loader  | fortnite offset | CREDIT : EFK
-
+ps : Zetolac is a very good dev
 EZ
 
 good classes leak by me : EFK#6607
@@ -57,7 +57,7 @@ https://cdn.discordapp.com/attachments/945729410387042365/955516219312730122/unk
 https://cdn.discordapp.com/attachments/945729410387042365/955516250207969321/unknown.png
 https://cdn.discordapp.com/attachments/945729410387042365/955516281027690566/unknown.png
 
-WORK IN VERSION FN : 20.00
+WORK IN VERSION FN : 20.10
 EZ
 
 
